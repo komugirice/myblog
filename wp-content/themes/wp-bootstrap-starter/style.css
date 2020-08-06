@@ -703,6 +703,11 @@ a img.aligncenter {
   display: inline-block;
 }
 
+/** 追加　**/
+.widget_archive .nav-link {
+  display: inline-block;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
