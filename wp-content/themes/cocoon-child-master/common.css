@@ -1,0 +1,147 @@
+/* ------------------------------------------------- */
+/* copyright 2016 Special Olympics Nippon Foundation.
+/* ------------------------------------------------- */
+@charset "UTF-8";
+@media print { body{-webkit-print-color-adjust: exact;} }
+
+/* ----------------------------------------------------------
+	BASE
+---------------------------------------------------------- */
+html {
+	font-size: 62.5%;
+	font-kerning: normal;
+	text-rendering: optimizeSpeed;
+	/*-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;*/
+}
+
+body {
+	background-color: #fff;
+	font-size: 10px;
+	font-size: 1.0rem;
+	font-family: Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo , sans-serif;
+	/*font-family: Garamond, "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "ＭＳ Ｐ明朝", "MS PMincho", serif;*/
+}
+
+.container:after,
+.content_wrap:after,
+.wrap_inner:after,
+article:after,
+.row:after,
+.col:after,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 	DEFAULT ROW STYLES  */
+.row {
+	display: table;
+}
+
+/* DEFAULT COLUMN STYLES */
+.col {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+/*	COLUMN WIDTH ON DISPLAYS +767px  */
+@media (min-width : 768px) {
+	.span_1 { width: 8.33333333333%; }
+	.span_2 { width: 16.6666666667%; }
+	.span_3 { width: 25%; }
+	.span_4 { width: 33.3333333333%; }
+	.span_5 { width: 41.6666666667%; }
+	.span_6 { width: 50%; }
+	.span_7 { width: 58.3333333333%; }
+	.span_8 { width: 66.6666666667%; }
+	.span_9 { width: 75%; }
+	.span_10 { width: 83.3333333333%; }
+	.span_11 { width: 91.6666666667%; }
+	.span_12 { width: 100%; }
+}
+
+/* POSITION --------------------- */
+.f-left { float: left; display: block;}
+.f-right{ float: right; display: block;}
+.left   { text-align: left;}
+.right  { text-align: right;}
+.center { text-align: center;}
+
+
+.m10 { margin: 10px !important; }
+.m20 { margin: 20px !important; }
+.m40 { margin: 40px !important; }
+.m60 { margin: 60px !important; }
+.m80 { margin: 80px !important; }
+.m0 { margin: 0px !important; }
+.mt0 { margin-top: 0px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt40 { margin-top: 40px !important; }
+.mt60 { margin-top: 60px !important; }
+.mt80 { margin-top: 80px !important; }
+.mb0 { margin-bottom: 0px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.mb60 { margin-bottom: 60px !important; }
+.mb80 { margin-bottom: 80px !important; }
+
+.p10 { padding: 10px !important; }
+.p20 { padding: 20px !important; }
+.p40 { padding: 40px !important; }
+.p60 { padding: 60px !important; }
+.p80 { padding: 80px !important; }
+.p0 { padding: 0px !important; }
+.pb0 { padding-bottom: 0px !important; }
+.pl0 { padding-left: 0px !important; }
+.pr0 { padding-right: 0px !important; }
+.pt0 { padding-top: 0px !important; }
+.pt20 { padding-top: 20px !important; }
+.pt40 { padding-top: 40px !important; }
+.pt60 { padding-top: 60px !important; }
+.pt80 { padding-top: 80px !important; }
+.pb0 { padding-bottom: 0px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb40 { padding-bottom: 40px !important; }
+.pb60 { padding-bottom: 60px !important; }
+.pb80 { padding-bottom: 80px !important; }
+
+
+@media only screen and (min-width: 768px){
+	.pc_none { display: none!important;}
+}
+/*@media only screen and (max-width: 767px) and (min-width: 628px){
+	.tab_none { display: none!important;}
+}*/
+@media only screen and (max-width: 767px){
+	.sp_none { display: none!important;}
+}
+
+
+
+
+/* ----------------------------------------------------------
+	 SON - COLORLING
+---------------------------------------------------------- */
+.red { color: #dd0000; }
+.red1{ color: #F05D5F; }
+.red2{ color: #C51919; }
+.red3{ color: #A3090E; }
+.red4{ color: #921313; }
+
+.bg_red { background-color: #dd0000; }
+.bg_red1{ background-color: #F05D5F; }
+.bg_red2{ background-color: #C51919; }
+.bg_red3{ background-color: #A3090E; }
+.bg_red4{ background-color: #921313; }
+
+.bg_blk0{ background-color: #FFFFFF; }
+.bg_blk1{ background-color: #F7F7F7; }
+.bg_blk2{ background-color: #343434; }
+.bg_blk3{ background-color: #212121; }
+.bg_blk4{ background-color: #121212; }
+
+
+
