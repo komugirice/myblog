@@ -240,7 +240,8 @@ h5 {
 }
 
 p {
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
+  margin-bottom: 0;
 }
 h1.entry-title {
   font-size: 1.31rem;
@@ -706,6 +707,11 @@ a img.aligncenter {
 /** 追加　**/
 .widget_archive .nav-link {
   display: inline-block;
+}
+
+.tagcloud a {
+  font-size: 0.875rem !important;
+  display: block;
 }
 
 /*--------------------------------------------------------------

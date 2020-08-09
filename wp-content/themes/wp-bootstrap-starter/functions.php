@@ -75,6 +75,15 @@ function wp_bootstrap_starter_setup() {
 endif;
 add_action( 'after_setup_theme', 'wp_bootstrap_starter_setup' );
 
+/**
+ * Add Custom Setup
+ */
+if ( ! function_exists( 'wp_bootstrap_starter_custom_setup' ) ) :
+function wp_bootstrap_starter_custom_setup() {
+    add_image_size('img500x500', 500, 500, false);
+}
+endif;
+add_action( 'after_setup_theme', 'wp_bootstrap_starter_custom_setup' );
 
 /**
  * Add Welcome message to dashboard
