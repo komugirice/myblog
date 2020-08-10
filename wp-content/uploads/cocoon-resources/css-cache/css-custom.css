@@ -5,6 +5,20 @@
     font-size: 16px;
   }
 }
+#header-container,
+#header-container .navi,
+#navi .navi-in > .menu-header .sub-menu{
+  background-color: #7a24e2;
+}
+.header,
+.header .site-name-text,
+#navi .navi-in a,
+#navi .navi-in a:hover{
+  color: #fff;
+}
+#navi .navi-in a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
 .main{
   width: 912px;
 }
@@ -43,6 +57,9 @@
   content: '[閉じる]';
 }#respond {
   display: none;
+}
+#footer {
+  background: #a3a3a3;
 }
 .entry-content > *,
 .demo .entry-content p {

@@ -9,5 +9,6 @@ add_editor_style();
 
 function wp_add_common_styles() {
     wp_enqueue_style( 'common-css', get_stylesheet_directory_uri() . '/common.css' );
+    wp_enqueue_style( 'normalize-css', get_stylesheet_directory_uri() . '/normalize.css' );
 }
 add_action( 'wp_enqueue_scripts', 'wp_add_common_styles' );

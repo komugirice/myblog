@@ -1599,20 +1599,20 @@ figure.wp-block-table.alignright table {
   line-height: 1.25;
   font-weight: bold;
 }
-.article h2,
+/* .article h2,
 .article h3,
 .article h4,
 .article h5,
 .article h6 {
   margin: 2.4em 0 1em;
-}
+} */
 .article h4,
 .article h5,
 .article h6 {
   font-size: 20px;
   padding: 9px 10px;
 }
-.article h2 {
+/* .article h2 {
   font-size: 24px;
   padding: 25px;
   background-color: #f5f6f7;
@@ -1635,7 +1635,7 @@ figure.wp-block-table.alignright table {
 }
 .article h6 {
   border-bottom: 1px solid #ddd;
-}
+} */
 .article .column-wrap h1, .article .column-wrap h2, .article .column-wrap h3, .article .column-wrap h4, .article .column-wrap h5, .article .column-wrap h6 {
   margin-top: 0;
 }
