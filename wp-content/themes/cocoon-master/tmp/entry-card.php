@@ -73,7 +73,7 @@ if (is_front_page_type_index()) {
             <span class="post-comment-count"><span class="fa fa-comment-o" aria-hidden="true"></span> <?php echo $count; ?></span>
           <?php endif; ?>
         </div>
-        <div class="entry-card-categorys"><?php the_nolink_categories() ?></div>
+        <!-- <div class="entry-card-categorys"><?php the_nolink_categories() ?></div> -->
       </div>
     </div><!-- /.entry-card-content -->
   </article>

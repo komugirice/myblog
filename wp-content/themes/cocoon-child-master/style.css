@@ -37,6 +37,10 @@ p {
 .tagcloud a {
 }
 
+.entry-card-content, .related-entry-card-content {
+  padding-bottom: 0;
+}
+
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
