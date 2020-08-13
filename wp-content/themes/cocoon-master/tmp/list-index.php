@@ -13,6 +13,15 @@ if ( !defined( 'ABSPATH' ) ) exit;
 //一覧の繰り返し処理
 ////////////////////////////
 $count = 0;
+// $args = array(
+//   'post_type' => 'post',
+//   'orderby' => 'date',
+// 	'order' => 'ASC',
+// );
+// $the_query = new WP_Query( $args );
+
+// if ( $the_query->have_posts() ) :
+//   while ($the_query->have_posts()) : the_post();
 if (have_posts()) : // WordPress ループ
   while (have_posts()) : the_post(); // 繰り返し処理開始
     $count++;

@@ -56,7 +56,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     get_template_part('tmp/breadcrumbs-page');
   } ?>
 
-  <?php // カテゴリページの場合
+  <?php // カテゴリページの場合、パンくずリスト表示
   if (is_category()){
     get_template_part('tmp/breadcrumbs');
   } ?>

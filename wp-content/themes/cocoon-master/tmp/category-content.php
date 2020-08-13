@@ -34,7 +34,7 @@ if ($eye_catch_url || $content): ?>
   </header>
   <?php if ($content): ?>
     <div class="category-page-content entry-content">
-      <?php echo $content; ?>
+      <?php echo $content;?>
     </div>
   <?php endif ?>
 </article>
