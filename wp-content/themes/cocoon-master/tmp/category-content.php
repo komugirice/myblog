@@ -7,6 +7,7 @@
  */
 if ( !defined( 'ABSPATH' ) ) exit;
 
+
 //カテゴリIDの取得
 $cat_id = get_query_var('cat');
 $eye_catch_url = get_the_category_eye_catch_url($cat_id);

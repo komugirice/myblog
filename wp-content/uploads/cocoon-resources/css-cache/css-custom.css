@@ -16,6 +16,14 @@
 #navi .navi-in a:hover{
   color: #fff;
 }
+#header-container .navi,
+#navi .navi-in > .menu-header .sub-menu{
+  background-color: #a06ae2;
+}
+#navi .navi-in a,
+#navi .navi-in a:hover{
+  color: #fff;
+}
 #navi .navi-in a:hover{
   background-color: rgba(255, 255, 255, 0.2);
 }

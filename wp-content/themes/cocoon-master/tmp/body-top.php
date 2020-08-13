@@ -56,6 +56,11 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     get_template_part('tmp/breadcrumbs-page');
   } ?>
 
+  <?php // カテゴリページの場合
+  if (is_category()){
+    get_template_part('tmp/breadcrumbs');
+  } ?>
+
   <?php //メインカラム手前に挿入するユーザー用テンプレート
   get_template_part('tmp-user/main-before'); ?>
 
