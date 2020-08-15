@@ -18,7 +18,7 @@ function twpp_change_sort_order( $query ) {
         return;
     }
     if ( $query->is_category() ) {
-        $query->set( 'orderby', 'date' );
+        $query->set( 'orderby', 'modified' );
         $query->set( 'order', 'ASC' );
         // var_dump($query);
     }

@@ -46,6 +46,20 @@ p {
   padding-bottom: 0;
 }
 
+.filename{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.caption{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
