@@ -57,7 +57,7 @@ p {
 }
 
 .indent {
-  margin-left 1em !important;
+  margin-left: 1em !important;
 }
 
 /************************************
