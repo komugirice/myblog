@@ -295,7 +295,6 @@ function get_category_index_list_entry_card_tag($categories, $count){
   // 昇順に変更する
   $args += array(
     'order' => 'ASC',
-    'orderby' => 'modified',
   );
   //カテゴリーの除外
   $exclude_category_ids = get_archive_exclude_category_ids();
