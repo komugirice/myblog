@@ -26,6 +26,7 @@ function twpp_change_sort_order( $query ) {
 add_action( 'pre_get_posts', 'twpp_change_sort_order' ); 
 
 function my_main_query( $query ) {
-    $query->set( 'post_type', array( 'qiitaapplication' ) );
+    // $query->set( 'post_type', array( 'qiitaapplication' ) );
+    $query->set( 'post_type', 'any' );
 }
 add_action( 'pre_get_posts', 'my_main_query' );
