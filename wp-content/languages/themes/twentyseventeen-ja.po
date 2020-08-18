@@ -31,8 +31,8 @@ msgstr "ブログサイドバー"
 msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
 msgstr "ブログ投稿やアーカイブページのサイドバーに表示されるウィジェットをここに追加してください。"
 
-#: template-parts/header/site-branding.php:34
 #: template-parts/navigation/navigation-top.php:31
+#: template-parts/header/site-branding.php:34
 msgid "Scroll down to content"
 msgstr "本文までスクロール"
 
@@ -152,8 +152,8 @@ msgstr "固定ページレイアウト"
 msgid "Add widgets here to appear in your footer."
 msgstr "フッターに表示させるにはここにウィジェットを追加してください。"
 
-#: template-parts/navigation/navigation-top.php:12 functions.php:64
-#: functions.php:205
+#: functions.php:64 functions.php:205
+#: template-parts/navigation/navigation-top.php:12
 msgid "Top Menu"
 msgstr "トップメニュー"
 
@@ -182,11 +182,11 @@ msgstr "検索キーワードに一致するものが見つかりませんでし
 msgid "Nothing Found"
 msgstr "何も見つかりませんでした"
 
-#: single.php:33 comments.php:71
+#: comments.php:71 single.php:33
 msgid "Previous"
 msgstr "前"
 
-#: single.php:34 comments.php:72
+#: comments.php:72 single.php:34
 msgid "Next"
 msgstr "次"
 
@@ -218,11 +218,12 @@ msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%s
 msgid "Search Results for: %s"
 msgstr "「%s」の検索結果"
 
-#: template-parts/post/content.php:64 template-parts/post/content-audio.php:91
-#: template-parts/post/content-image.php:68
-#: template-parts/post/content-video.php:90
 #: template-parts/post/content-gallery.php:78
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
 #: template-parts/page/content-page.php:26
+#: template-parts/page/content-front-page.php:48
 msgid "Pages:"
 msgstr "ページ:"
 
@@ -250,11 +251,11 @@ msgstr "﻿ソーシャルリンクメニュー"
 msgid "Comments are closed."
 msgstr "コメントは受け付けていません。"
 
-#: index.php:55 archive.php:51 search.php:52
+#: archive.php:51 index.php:55 search.php:52
 msgid "Page"
 msgstr "ページ"
 
-#: index.php:54 archive.php:50 search.php:51
+#: archive.php:50 index.php:54 search.php:51
 msgid "Next page"
 msgstr "次のページ"
 
@@ -266,7 +267,7 @@ msgstr "お探しのページが見つかりません。"
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "こちらには何もありません。検索をお試しください。"
 
-#: index.php:53 archive.php:49 search.php:50
+#: archive.php:49 index.php:53 search.php:50
 msgid "Previous page"
 msgstr "前のページ"
 
@@ -307,12 +308,12 @@ msgid "Search for:"
 msgstr "検索:"
 
 #. translators: %s: Post title.
-#: template-parts/post/content.php:57 template-parts/post/content-audio.php:84
-#: template-parts/post/content-image.php:61
+#: functions.php:392 template-parts/post/content-gallery.php:71
 #: template-parts/post/content-video.php:83
-#: template-parts/post/content-gallery.php:71
+#: template-parts/post/content-image.php:61
+#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
+#: template-parts/page/content-front-page-panels.php:45
 #: template-parts/page/content-front-page.php:42
-#: template-parts/page/content-front-page-panels.php:45 functions.php:392
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "<span class=\"screen-reader-text\">\"%s\" の</span>続きを読む"
 

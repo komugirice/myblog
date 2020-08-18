@@ -23,7 +23,7 @@ msgstr "Twenty Twenty"
 msgid "Show author bio"
 msgstr "作成者名を表示"
 
-#: inc/starter-content.php:38
+#: inc/starter-content.php:39
 msgctxt "Theme starter content"
 msgid "The New UMoMA Opens its Doors"
 msgstr "現代美術館が新装オープン"
@@ -36,8 +36,8 @@ msgstr "アーカイブを表示 <span aria-hidden=\"true\">&rarr;</span>"
 msgid "Custom"
 msgstr "カスタム"
 
-#: inc/starter-content.php:72 inc/starter-content.php:87
-#: inc/starter-content.php:104 inc/starter-content.php:119
+#: inc/starter-content.php:73 inc/starter-content.php:88
+#: inc/starter-content.php:105 inc/starter-content.php:120
 msgid "Read More"
 msgstr "続きを読む"
 
@@ -53,47 +53,47 @@ msgstr "オーバーレイの不透明度"
 msgid "Primary Color"
 msgstr "メインカラー"
 
-#: inc/starter-content.php:150
+#: inc/starter-content.php:151
 msgid "Join the Club"
 msgstr "参加する"
 
-#: inc/starter-content.php:147
+#: inc/starter-content.php:148
 msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
 msgstr "会員の方は、限定展示やセールにアクセスできます。会員になるには年間1万円の費用がかかり、請求は年に1回です。"
 
-#: inc/starter-content.php:144
+#: inc/starter-content.php:145
 msgid "Become a Member and Get Exclusive Offers!"
 msgstr "会員になって限定オファーへアクセス。"
 
-#: inc/starter-content.php:129
+#: inc/starter-content.php:130
 msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
 msgstr "「哲学者ドナ・ハラウェイが証明したとおり、サイボーグは敬虔ではないのです。彼らは宇宙のことを覚えていません。」"
 
-#: inc/starter-content.php:113
+#: inc/starter-content.php:114
 msgid "From Signac to Matisse"
 msgstr "シニャックからマチスまで"
 
-#: inc/starter-content.php:98
+#: inc/starter-content.php:99
 msgid "The Life I Deserve"
 msgstr "値する人生"
 
-#: inc/starter-content.php:84 inc/starter-content.php:116
+#: inc/starter-content.php:85 inc/starter-content.php:117
 msgid "October 1 -- December 1"
 msgstr "10月1日〜12月1日"
 
-#: inc/starter-content.php:81
+#: inc/starter-content.php:82
 msgid "Theatre of Operations"
 msgstr "オペレーション劇場"
 
-#: inc/starter-content.php:69 inc/starter-content.php:101
+#: inc/starter-content.php:70 inc/starter-content.php:102
 msgid "August 1 -- December 1"
 msgstr "8月1日〜12月1日"
 
-#: inc/starter-content.php:55
+#: inc/starter-content.php:56
 msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
 msgstr "スウェーデン北部の現代アートを集めたプレミアムスポット。夏季期間中は午前10時から午後6時まで毎日営業しています。"
 
-#: inc/starter-content.php:47
+#: inc/starter-content.php:48
 msgid "The New UMoMA Opens its Doors"
 msgstr "現代美術館が新装オープン"
 
@@ -121,20 +121,20 @@ msgstr "リンク、ボタン、アイキャッチ画像にカスタムカラー
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "「カバーテンプレート」ページテンプレートの設定。背景として使用するアイキャッチ画像を追加してください。"
 
-#: inc/template-tags.php:393
+#: inc/template-tags.php:396
 msgctxt "A string that is output before one or more categories"
 msgid "In"
 msgstr "カテゴリー:"
 
-#: inc/starter-content.php:136
+#: inc/starter-content.php:137
 msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
 msgstr "展覧会は現代美術館と世界中のアーティストや美術館によるコラボレーションの成果であり、国際的に注目されることも少なくありません。現代美術館はヨーロッパ博物館大賞から特別推奨賞を授けられ、スウェーデン博物館大賞やヨーロッパ博物館評議会賞においても上位の候補者となりました。"
 
-#: inc/starter-content.php:133
+#: inc/starter-content.php:134
 msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
 msgstr "7階建ての印象的な建築の現代美術館では、国際的な現代美術の展示を行っています。その際、美術の歴史的分析も含めることもあります。実存的、政治的、哲学的問題は当館のプログラムの本質といえます。訪問者の皆さんを、ガイド付きツアー、アーティストトーク、講演、映画上映などの無料イベントへご招待しています。"
 
-#: inc/starter-content.php:66
+#: inc/starter-content.php:67
 msgid "Works and Days"
 msgstr "作品と日程"
 
@@ -142,7 +142,7 @@ msgstr "作品と日程"
 msgid "Search for:"
 msgstr "検索対象:"
 
-#: index.php:99
+#: index.php:101
 msgid "search again"
 msgstr "再検索"
 
@@ -201,16 +201,16 @@ msgstr "コメント"
 msgid "Comments are closed."
 msgstr "コメントは受け付けていません。"
 
-#: inc/starter-content.php:176 inc/starter-content.php:186 functions.php:492
+#: inc/starter-content.php:177 inc/starter-content.php:187 functions.php:489
 msgid "Primary"
 msgstr "メイン"
 
-#: inc/starter-content.php:196
+#: inc/starter-content.php:197
 msgid "Social Links Menu"
 msgstr "﻿ソーシャルリンクメニュー"
 
 #. translators: %s: Post title. Only visible to screen readers.
-#: inc/template-tags.php:206
+#: inc/template-tags.php:207
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
 
@@ -222,7 +222,7 @@ msgstr "フッターメニュー"
 msgid "Footer"
 msgstr "フッター"
 
-#: functions.php:497
+#: functions.php:494
 msgid "Secondary"
 msgstr "サブ"
 
@@ -243,16 +243,16 @@ msgstr "過去のコメント"
 msgid "#%d (no title)"
 msgstr "#%d (タイトルなし)"
 
-#: functions.php:515
+#: functions.php:512
 msgid "Background Color"
 msgstr "背景色"
 
 #. translators: %s: Author name.
-#: inc/template-tags.php:354 template-parts/entry-author-bio.php:20
+#: inc/template-tags.php:357 template-parts/entry-author-bio.php:20
 msgid "By %s"
 msgstr "作成者: %s"
 
-#: inc/template-tags.php:389 template-parts/entry-header.php:36
+#: inc/template-tags.php:392 template-parts/entry-header.php:36
 #: template-parts/content-cover.php:70
 msgid "Categories"
 msgstr "カテゴリー"
@@ -293,7 +293,7 @@ msgstr "ソーシャルメニュー"
 msgid "Summary"
 msgstr "要約"
 
-#: inc/template-tags.php:407
+#: inc/template-tags.php:410
 msgid "Tags"
 msgstr "タグ"
 
@@ -359,15 +359,15 @@ msgstr "ソーシャルリンク"
 msgid "Search:"
 msgstr "検索:"
 
-#: inc/template-tags.php:445
+#: inc/template-tags.php:448
 msgid "Sticky post"
 msgstr "固定投稿"
 
-#: inc/template-tags.php:371
+#: inc/template-tags.php:374
 msgid "Post date"
 msgstr "投稿日"
 
-#: inc/template-tags.php:347
+#: inc/template-tags.php:350
 msgid "Post author"
 msgstr "投稿者"
 
@@ -375,63 +375,63 @@ msgstr "投稿者"
 msgid "Continue reading"
 msgstr "続きを読む"
 
-#: functions.php:549
+#: functions.php:546
 msgctxt "Short name of the larger font size in the block editor."
 msgid "XL"
 msgstr "超特大"
 
-#: functions.php:548
+#: functions.php:545
 msgctxt "Name of the larger font size in the block editor"
 msgid "Larger"
 msgstr "特大"
 
-#: functions.php:543
+#: functions.php:540
 msgctxt "Short name of the large font size in the block editor."
 msgid "L"
 msgstr "大"
 
-#: functions.php:542
+#: functions.php:539
 msgctxt "Name of the large font size in the block editor"
 msgid "Large"
 msgstr "大"
 
-#: functions.php:537
+#: functions.php:534
 msgctxt "Short name of the regular font size in the block editor."
 msgid "M"
 msgstr "中"
 
-#: functions.php:536
+#: functions.php:533
 msgctxt "Name of the regular font size in the block editor"
 msgid "Regular"
 msgstr "通常"
 
-#: functions.php:531
+#: functions.php:528
 msgctxt "Short name of the small font size in the block editor."
 msgid "S"
 msgstr "小"
 
-#: functions.php:530
+#: functions.php:527
 msgctxt "Name of the small font size in the block editor"
 msgid "Small"
 msgstr "小"
 
-#: functions.php:502
+#: functions.php:499
 msgid "Subtle Background"
 msgstr "繊細な背景"
 
-#: functions.php:487
+#: functions.php:484
 msgid "Accent Color"
 msgstr "アクセント色"
 
-#: functions.php:378
+#: functions.php:377
 msgid "Footer #2"
 msgstr "フッター2"
 
-#: functions.php:366
+#: functions.php:365
 msgid "Footer #1"
 msgstr "フッター1"
 
-#: functions.php:341
+#: functions.php:340
 msgid "Skip to the content"
 msgstr "コンテンツへスキップ"
 
@@ -447,7 +447,7 @@ msgstr "デスクトップ展開メニュー"
 msgid "Desktop Horizontal Menu"
 msgstr "デスクトップ水平メニュー"
 
-#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:555
+#: classes/class-twentytwenty-walker-page.php:107 inc/template-tags.php:558
 msgid "Show sub menu"
 msgstr "サブメニューを表示"
 
@@ -492,11 +492,11 @@ msgstr "アーカイブページで投稿に表示:"
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "訪問者がスクロールした際にパララックス効果を作成します。"
 
-#: functions.php:380
+#: functions.php:379
 msgid "Widgets in this area will be displayed in the second column in the footer."
 msgstr "このエリアのウィジェットはフッターの2列目に表示されます。"
 
-#: functions.php:368
+#: functions.php:367
 msgid "Widgets in this area will be displayed in the first column in the footer."
 msgstr "このエリアのウィジェットはフッターの1列目に表示されます。"
 
