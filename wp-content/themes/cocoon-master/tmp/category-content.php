@@ -7,7 +7,6 @@
  */
 if ( !defined( 'ABSPATH' ) ) exit;
 
-
 //カテゴリIDの取得
 $cat_id = get_query_var('cat');
 $eye_catch_url = get_the_category_eye_catch_url($cat_id);
@@ -34,7 +33,7 @@ if ($eye_catch_url || $content): ?>
   </header>
   <?php if ($content): ?>
     <div class="category-page-content entry-content">
-      <?php echo $content;?>
+      <?php echo $content; ?>
     </div>
   <?php endif ?>
 </article>

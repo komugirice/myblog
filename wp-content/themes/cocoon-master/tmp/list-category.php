@@ -37,14 +37,8 @@ $count = get_index_category_entry_card_count();
         <h1 class="list-category-<?php echo $cat_id; ?>-title list-title">
           <span class="list-title-in">
             <?php echo get_category_name_by_id($cat_id); ?>
-          </span> 
+          </span>
         </h1>
-        <?php  // 説明表示
-          $content = get_the_category_content($cat_id); ?>
-        <div class="category-page-content entry-content">
-          <?php echo $content; ?>
-        </div>
-        
         <div class="<?php echo get_index_list_classes(); ?>">
           <?php echo get_category_index_list_entry_card_tag($cat_id, $count); ?>
         </div><!-- .list -->

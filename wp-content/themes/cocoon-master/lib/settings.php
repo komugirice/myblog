@@ -27,14 +27,14 @@ add_theme_support('post-thumbnails');
 define('THUMB100', 'thumb100');
 define('THUMB100WIDTH', get_square_thumbnail_width(100));
 define('THUMB100HEIGHT', get_square_thumbnail_height(THUMB100WIDTH));
-// add_image_size(THUMB100, THUMB100WIDTH, THUMB100HEIGHT, true);
+add_image_size(THUMB100, THUMB100WIDTH, THUMB100HEIGHT, true);
 
 //150px正方形 ページ送りナビ、Facebookバルーン
 define('W150', 150);
 define('THUMB150', 'thumb150');
 define('THUMB150WIDTH', get_square_thumbnail_width(W150));
 define('THUMB150HEIGHT', get_square_thumbnail_height(THUMB150WIDTH));
-// add_image_size(THUMB150, THUMB150WIDTH, THUMB150HEIGHT, true);
+add_image_size(THUMB150, THUMB150WIDTH, THUMB150HEIGHT, true);
 define('THUMB150WIDTH_DEF', W150);
 define('THUMB150HEIGHT_DEF', W150);
 
@@ -43,7 +43,7 @@ define('W120', 120);
 define('THUMB120', 'thumb120');
 define('THUMB120WIDTH', get_thumbnail_width(W120));
 define('THUMB120HEIGHT', get_thumbnail_height(THUMB120WIDTH));
-// add_image_size(THUMB120, THUMB120WIDTH, THUMB120HEIGHT, true);
+add_image_size(THUMB120, THUMB120WIDTH, THUMB120HEIGHT, true);
 define('THUMB120WIDTH_DEF', W120);
 define('THUMB120HEIGHT_DEF', get_thumbnail_height(THUMB120WIDTH_DEF));
 
@@ -52,7 +52,7 @@ define('W160', 160);
 define('THUMB160', 'thumb160');
 define('THUMB160WIDTH', get_thumbnail_width(W160));
 define('THUMB160HEIGHT', get_thumbnail_height(THUMB160WIDTH));
-// add_image_size(THUMB160, THUMB160WIDTH, THUMB160HEIGHT, true);
+add_image_size(THUMB160, THUMB160WIDTH, THUMB160HEIGHT, true);
 define('THUMB160WIDTH_DEF', W160);
 define('THUMB160HEIGHT_DEF', get_thumbnail_height(THUMB160WIDTH_DEF));
 
@@ -61,28 +61,28 @@ define('W320', 320);
 define('THUMB320', 'thumb320');
 define('THUMB320WIDTH', get_thumbnail_width(W320));
 define('THUMB320HEIGHT', get_thumbnail_height(THUMB320WIDTH));
-// add_image_size(THUMB320, THUMB320WIDTH, THUMB320HEIGHT, true);
+add_image_size(THUMB320, THUMB320WIDTH, THUMB320HEIGHT, true);
 define('THUMB320WIDTH_DEF', W320);
 define('THUMB320HEIGHT_DEF', get_thumbnail_height(THUMB320WIDTH_DEF));
 
 //縦型カード2列用の可変サムネイル
-// if (is_entry_card_type_vertical_card_2()) {
-//   add_image_size(get_vertical_card_2_thumbnail_size(), get_vertical_card_2_width(), get_vertical_card_2_height(), true);
-// }
+if (is_entry_card_type_vertical_card_2()) {
+  add_image_size(get_vertical_card_2_thumbnail_size(), get_vertical_card_2_width(), get_vertical_card_2_height(), true);
+}
 //縦型カード3列用の可変サムネイル
-// if (is_entry_card_type_vertical_card_3()) {
-//   add_image_size(get_vertical_card_3_thumbnail_size(), get_vertical_card_3_width(), get_vertical_card_3_height(), true);
-// }
+if (is_entry_card_type_vertical_card_3()) {
+  add_image_size(get_vertical_card_3_thumbnail_size(), get_vertical_card_3_width(), get_vertical_card_3_height(), true);
+}
 
 
 //タイルカード2列用の可変サムネイル
-// if (is_entry_card_type_tile_card_2()) {
-//   add_image_size(get_tile_card_2_thumbnail_size(), get_tile_card_2_width(), get_tile_card_2_height(), false);
-// }
+if (is_entry_card_type_tile_card_2()) {
+  add_image_size(get_tile_card_2_thumbnail_size(), get_tile_card_2_width(), get_tile_card_2_height(), false);
+}
 //タイルカード3列用の可変サムネイル
-// if (is_entry_card_type_tile_card_3()) {
-//   add_image_size(get_tile_card_3_thumbnail_size(), get_tile_card_3_width(), get_tile_card_3_height(), false);
-// }
+if (is_entry_card_type_tile_card_3()) {
+  add_image_size(get_tile_card_3_thumbnail_size(), get_tile_card_3_width(), get_tile_card_3_height(), false);
+}
 
 //コンテンツの幅の指定
 if ( ! isset( $content_width ) ) $content_width = get_site_wrap_width();
@@ -306,8 +306,7 @@ add_filter('appeal_area_message', 'wpautop');
 add_filter('appeal_area_message', 'shortcode_unautop');
 add_filter('appeal_area_message', 'do_shortcode');
 add_filter('appeal_area_message', 'prepend_attachment');
-// add_filter('appeal_area_message', 'wp_make_content_images_responsive');
-add_filter('appeal_area_message', 'wp_filter_content_tags');
+add_filter('appeal_area_message', 'wp_make_content_images_responsive');
 //カテゴリ・タグページ（※フックの順番が大事）
 add_filter('the_category_tag_content', 'wptexturize');
 add_filter('the_category_tag_content', 'convert_smilies');
@@ -317,8 +316,7 @@ add_filter('the_category_tag_content', 'replace_ad_shortcode_to_advertisement');
 add_filter('the_category_tag_content', 'shortcode_unautop');
 add_filter('the_category_tag_content', 'do_shortcode');
 add_filter('the_category_tag_content', 'prepend_attachment');
-// add_filter('the_category_tag_content', 'wp_make_content_images_responsive');
-add_filter('the_category_tag_content',  'wp_filter_content_tags');
+add_filter('the_category_tag_content', 'wp_make_content_images_responsive');
 
 //generator を削除
 remove_action('wp_head', 'wp_generator');

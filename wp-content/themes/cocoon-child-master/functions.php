@@ -33,3 +33,10 @@ function my_main_query( $query ) {
     $query->set( 'post_type', 'any' );
 }
 add_action( 'pre_get_posts', 'my_main_query' );
+
+//投稿にサブメニューを追加
+function add_post_submenu() {
+    add_submenu_page( 'edit.php', 'QiitaApplication', '■QiitaApplication', 'activate_plugins', 'edit.php?post_status=publish&cat=7' );
+    add_submenu_page( 'edit.php', 'メンタル', '■メンタル', 'activate_plugins', 'edit.php?post_status=publish&cat=27' );
+}
+add_action('admin_menu', 'add_post_submenu');
