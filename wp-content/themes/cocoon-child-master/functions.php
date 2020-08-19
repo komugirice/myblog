@@ -18,12 +18,12 @@ function twpp_change_sort_order( $query ) {
         return;
     }
     if ( $query->is_category() ) {
-        $query->set( 'orderby', 'modified' );
-        $query->set( 'order', 'ASC' );
-        var_dump($query);
+        // $query->set( 'orderby', 'modified' );
+        // $query->set( 'order', 'DESC' );
+        // var_dump($query);
     }
 }
-add_action( 'pre_get_posts', 'twpp_change_sort_order' ); 
+// add_action( 'pre_get_posts', 'twpp_change_sort_order' ); 
 
 function my_main_query( $query ) {
     if ( is_admin() ) {
@@ -32,7 +32,7 @@ function my_main_query( $query ) {
     // $query->set( 'post_type', array( 'qiitaapplication' ) );
     $query->set( 'post_type', 'any' );
 }
-add_action( 'pre_get_posts', 'my_main_query' );
+// add_action( 'pre_get_posts', 'my_main_query' );
 
 //投稿にサブメニューを追加
 function add_post_submenu() {
