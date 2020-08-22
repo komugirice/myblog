@@ -14,16 +14,17 @@ function wp_add_common_styles() {
 add_action( 'wp_enqueue_scripts', 'wp_add_common_styles' );
 
 function twpp_change_sort_order( $query ) {
-    if ( is_admin() || ! $query->is_main_query() ) {
+    // if ( is_admin() || ! $query->is_main_query() ) {
+    if ( is_admin() ) {
         return;
     }
     if ( $query->is_category() ) {
         // $query->set( 'orderby', 'modified' );
-        // $query->set( 'order', 'DESC' );
+        $query->set( 'order', 'DESC' );
         // var_dump($query);
     }
 }
-// add_action( 'pre_get_posts', 'twpp_change_sort_order' ); 
+add_action( 'pre_get_posts', 'twpp_change_sort_order' ); 
 
 function my_main_query( $query ) {
     if ( is_admin() ) {
