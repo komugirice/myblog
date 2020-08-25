@@ -83,10 +83,12 @@ article:after,
 .mt60 { margin-top: 60px !important; }
 .mt80 { margin-top: 80px !important; }
 .mb0 { margin-bottom: 0px !important; }
+.mb10 { margin-bottom: 21px !important; }
 .mb20 { margin-bottom: 20px !important; }
 .mb40 { margin-bottom: 40px !important; }
 .mb60 { margin-bottom: 60px !important; }
 .mb80 { margin-bottom: 80px !important; }
+.mb1em { margin-bottom: 1em !important; }
 
 .p10 { padding: 10px !important; }
 .p20 { padding: 20px !important; }

@@ -18,7 +18,7 @@ function twpp_change_sort_order( $query ) {
     if ( is_admin() ) {
         return;
     }
-    if ( $query->is_category() ) {
+    if ( $query->is_category(array('qiitaapplication')) ) {
         // $query->set( 'orderby', 'modified' );
         $query->set( 'order', 'DESC' );
         // var_dump($query);
